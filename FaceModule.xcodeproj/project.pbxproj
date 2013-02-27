@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBAB281316D8D32800EF29AA /* FaceDetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBAB281116D8D32800EF29AA /* FaceDetect.cpp */; };
+		DBAB283216D8D57200EF29AA /* FaceDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB283116D8D57200EF29AA /* FaceDetect.h */; };
+		DBAB28C416DB8E6000EF29AA /* ae.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28B616DB8E6000EF29AA /* ae.h */; };
+		DBAB28C516DB8E6000EF29AA /* libev.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28B716DB8E6000EF29AA /* libev.h */; };
+		DBAB28C616DB8E6000EF29AA /* libevent.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28B816DB8E6000EF29AA /* libevent.h */; };
+		DBAB28C716DB8E6000EF29AA /* async.c in Sources */ = {isa = PBXBuildFile; fileRef = DBAB28B916DB8E6000EF29AA /* async.c */; };
+		DBAB28C816DB8E6000EF29AA /* async.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28BA16DB8E6000EF29AA /* async.h */; };
+		DBAB28C916DB8E6000EF29AA /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = DBAB28BB16DB8E6000EF29AA /* dict.c */; };
+		DBAB28CA16DB8E6000EF29AA /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28BC16DB8E6000EF29AA /* dict.h */; };
+		DBAB28CB16DB8E6000EF29AA /* fmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28BD16DB8E6000EF29AA /* fmacros.h */; };
+		DBAB28CC16DB8E6000EF29AA /* hiredis.c in Sources */ = {isa = PBXBuildFile; fileRef = DBAB28BE16DB8E6000EF29AA /* hiredis.c */; };
+		DBAB28CD16DB8E6000EF29AA /* hiredis.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28BF16DB8E6000EF29AA /* hiredis.h */; };
+		DBAB28CE16DB8E6000EF29AA /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = DBAB28C016DB8E6000EF29AA /* net.c */; };
+		DBAB28CF16DB8E6000EF29AA /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28C116DB8E6000EF29AA /* net.h */; };
+		DBAB28D016DB8E6000EF29AA /* sds.c in Sources */ = {isa = PBXBuildFile; fileRef = DBAB28C216DB8E6000EF29AA /* sds.c */; };
+		DBAB28D116DB8E6000EF29AA /* sds.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28C316DB8E6000EF29AA /* sds.h */; };
+		DBAB28D416DB954500EF29AA /* cJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = DBAB28D216DB954500EF29AA /* cJSON.c */; };
+		DBAB28D516DB954500EF29AA /* cJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB28D316DB954500EF29AA /* cJSON.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBAB280A16D8D1F400EF29AA /* libFaceModule.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libFaceModule.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAB281116D8D32800EF29AA /* FaceDetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FaceDetect.cpp; sourceTree = "<group>"; };
+		DBAB283116D8D57200EF29AA /* FaceDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetect.h; sourceTree = "<group>"; };
+		DBAB28B616DB8E6000EF29AA /* ae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ae.h; sourceTree = "<group>"; };
+		DBAB28B716DB8E6000EF29AA /* libev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libev.h; sourceTree = "<group>"; };
+		DBAB28B816DB8E6000EF29AA /* libevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libevent.h; sourceTree = "<group>"; };
+		DBAB28B916DB8E6000EF29AA /* async.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = async.c; sourceTree = "<group>"; };
+		DBAB28BA16DB8E6000EF29AA /* async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = async.h; sourceTree = "<group>"; };
+		DBAB28BB16DB8E6000EF29AA /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
+		DBAB28BC16DB8E6000EF29AA /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		DBAB28BD16DB8E6000EF29AA /* fmacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmacros.h; sourceTree = "<group>"; };
+		DBAB28BE16DB8E6000EF29AA /* hiredis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hiredis.c; sourceTree = "<group>"; };
+		DBAB28BF16DB8E6000EF29AA /* hiredis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hiredis.h; sourceTree = "<group>"; };
+		DBAB28C016DB8E6000EF29AA /* net.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net.c; sourceTree = "<group>"; };
+		DBAB28C116DB8E6000EF29AA /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		DBAB28C216DB8E6000EF29AA /* sds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sds.c; sourceTree = "<group>"; };
+		DBAB28C316DB8E6000EF29AA /* sds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sds.h; sourceTree = "<group>"; };
+		DBAB28D216DB954500EF29AA /* cJSON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cJSON.c; sourceTree = "<group>"; };
+		DBAB28D316DB954500EF29AA /* cJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cJSON.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBAB280716D8D1F400EF29AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBAB280116D8D1F400EF29AA = {
+			isa = PBXGroup;
+			children = (
+				DBAB28D216DB954500EF29AA /* cJSON.c */,
+				DBAB28D316DB954500EF29AA /* cJSON.h */,
+				DBAB28B416DB8E6000EF29AA /* hiredis */,
+				DBAB283116D8D57200EF29AA /* FaceDetect.h */,
+				DBAB281116D8D32800EF29AA /* FaceDetect.cpp */,
+				DBAB280B16D8D1F400EF29AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBAB280B16D8D1F400EF29AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBAB280A16D8D1F400EF29AA /* libFaceModule.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBAB28B416DB8E6000EF29AA /* hiredis */ = {
+			isa = PBXGroup;
+			children = (
+				DBAB28B516DB8E6000EF29AA /* adapters */,
+				DBAB28B916DB8E6000EF29AA /* async.c */,
+				DBAB28BA16DB8E6000EF29AA /* async.h */,
+				DBAB28BB16DB8E6000EF29AA /* dict.c */,
+				DBAB28BC16DB8E6000EF29AA /* dict.h */,
+				DBAB28BD16DB8E6000EF29AA /* fmacros.h */,
+				DBAB28BE16DB8E6000EF29AA /* hiredis.c */,
+				DBAB28BF16DB8E6000EF29AA /* hiredis.h */,
+				DBAB28C016DB8E6000EF29AA /* net.c */,
+				DBAB28C116DB8E6000EF29AA /* net.h */,
+				DBAB28C216DB8E6000EF29AA /* sds.c */,
+				DBAB28C316DB8E6000EF29AA /* sds.h */,
+			);
+			path = hiredis;
+			sourceTree = "<group>";
+		};
+		DBAB28B516DB8E6000EF29AA /* adapters */ = {
+			isa = PBXGroup;
+			children = (
+				DBAB28B616DB8E6000EF29AA /* ae.h */,
+				DBAB28B716DB8E6000EF29AA /* libev.h */,
+				DBAB28B816DB8E6000EF29AA /* libevent.h */,
+			);
+			path = adapters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DBAB280816D8D1F400EF29AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBAB283216D8D57200EF29AA /* FaceDetect.h in Headers */,
+				DBAB28C416DB8E6000EF29AA /* ae.h in Headers */,
+				DBAB28C516DB8E6000EF29AA /* libev.h in Headers */,
+				DBAB28C616DB8E6000EF29AA /* libevent.h in Headers */,
+				DBAB28C816DB8E6000EF29AA /* async.h in Headers */,
+				DBAB28CA16DB8E6000EF29AA /* dict.h in Headers */,
+				DBAB28CB16DB8E6000EF29AA /* fmacros.h in Headers */,
+				DBAB28CD16DB8E6000EF29AA /* hiredis.h in Headers */,
+				DBAB28CF16DB8E6000EF29AA /* net.h in Headers */,
+				DBAB28D116DB8E6000EF29AA /* sds.h in Headers */,
+				DBAB28D516DB954500EF29AA /* cJSON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DBAB280916D8D1F400EF29AA /* FaceModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAB280E16D8D1F400EF29AA /* Build configuration list for PBXNativeTarget "FaceModule" */;
+			buildPhases = (
+				DBAB280616D8D1F400EF29AA /* Sources */,
+				DBAB280716D8D1F400EF29AA /* Frameworks */,
+				DBAB280816D8D1F400EF29AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceModule;
+			productName = FaceModule;
+			productReference = DBAB280A16D8D1F400EF29AA /* libFaceModule.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBAB280216D8D1F400EF29AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ZJU;
+			};
+			buildConfigurationList = DBAB280516D8D1F400EF29AA /* Build configuration list for PBXProject "FaceModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBAB280116D8D1F400EF29AA;
+			productRefGroup = DBAB280B16D8D1F400EF29AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBAB280916D8D1F400EF29AA /* FaceModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBAB280616D8D1F400EF29AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBAB281316D8D32800EF29AA /* FaceDetect.cpp in Sources */,
+				DBAB28C716DB8E6000EF29AA /* async.c in Sources */,
+				DBAB28C916DB8E6000EF29AA /* dict.c in Sources */,
+				DBAB28CC16DB8E6000EF29AA /* hiredis.c in Sources */,
+				DBAB28CE16DB8E6000EF29AA /* net.c in Sources */,
+				DBAB28D016DB8E6000EF29AA /* sds.c in Sources */,
+				DBAB28D416DB954500EF29AA /* cJSON.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBAB280C16D8D1F400EF29AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBAB280D16D8D1F400EF29AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBAB280F16D8D1F400EF29AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv/2.4.3/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/2.4.3/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_contrib",
+					"-lopencv_legacy",
+					"-lopencv_flann",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBAB281016D8D1F400EF29AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv/2.4.3/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/2.4.3/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_contrib",
+					"-lopencv_legacy",
+					"-lopencv_flann",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBAB280516D8D1F400EF29AA /* Build configuration list for PBXProject "FaceModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAB280C16D8D1F400EF29AA /* Debug */,
+				DBAB280D16D8D1F400EF29AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBAB280E16D8D1F400EF29AA /* Build configuration list for PBXNativeTarget "FaceModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAB280F16D8D1F400EF29AA /* Debug */,
+				DBAB281016D8D1F400EF29AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBAB280216D8D1F400EF29AA /* Project object */;
+}
